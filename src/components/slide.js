@@ -11,59 +11,29 @@ const Slideshow = () => {
       <div>
         <div class="hero_text_container">
   
-  <p class="hero_text"> The Real Fun Happens After Dark</p>
+  <p class="hero_text"> The Real Fun Happens AfterDark</p>
   <a class="button_text" href="/ProductsPage"> <button class="button_text"> Impulse Buy </button> </a>
 </div>
       <div className="slide-container">
       <Slide>
-          <div
-              style={{
-                  height: "70vh",
-              }}
-              className="each-slide" 
-          >
+          <div style={{ height: "70vh", }} className="each-slide">
             <span>
           
             </span>
               {" "}
-              <div
-                  className="slide-image"
-                  style={{
-                      backgroundImage: `url(${lovers})`,
-                  }}
-              >
+              <div className="slide-image" style={{ backgroundImage: `url(${lovers})`, }} >
                   
-              </div>
+            </div>
           </div>
           <div
-              style={{
-                  height: "70vh",
-              }}
-              className="each-slide"
-          >
+              style={{ height: "70vh", }} className="each-slide">
               {" "}
-              <div
-                  className="slide-image"
-                  style={{
-                      backgroundImage: `url(${jbf})`,
-                  }}
-              >
+              <div className="slide-image" style={{ backgroundImage: `url(${jbf})`, }} >
                  
-              </div>
           </div>
-          <div
-              style={{
-                  height: "70vh",
-              }}
-              className="each-slide"
-          >
-              <div
-                  className="slide-image"
-                  style={{
-                      backgroundImage: `url(${ana})`,
-                  }}
-              >
-                 
+          </div>
+          <div style={{ height: "70vh", }} className="each-slide">
+              <div className="slide-image" style={{ backgroundImage: `url(${ana})`, }} >    
               </div>
           </div>
       </Slide>
